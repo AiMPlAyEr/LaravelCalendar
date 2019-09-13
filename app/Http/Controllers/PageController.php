@@ -9,7 +9,6 @@ class PageController extends Controller
 {
     //
     public function index($year, $month) {
-        
         $options = [
             "mode"              => 1, 
             "id"                => "calendar", 
